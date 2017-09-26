@@ -1,5 +1,5 @@
-fileWBC <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/K11P1_レトロゾール（共和）/検査関連/データ入力/WBC/K11p1_WBC.txt'
-fileNUT <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/K11P1_レトロゾール（共和）/検査関連/データ入力/Nut/K11p1_Nut.txt'
+fileWBC <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/XXXX/検査関連/データ入力/WBC/K11p1_WBC.txt'
+fileNUT <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/XXXX/検査関連/データ入力/Nut/K11p1_Nut.txt'
 
 HEADER = TRUE
 
@@ -23,7 +23,7 @@ countNUT <-  dataNUT[,2:length(dataNUT)]*dataWBC[,2:length(dataWBC)]/100
 dataWBC
 countNUT
 
-write.csv(countNUT,'//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/K11P1_レトロゾール（共和）/検査関連/データ入力/Nut/K11p1_cNut.csv')
+write.csv(countNUT,'//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/XXXXX/検査関連/データ入力/Nut/K11p1_cNut.csv')
 boxplot(dataWBC[,2:length(dataWBC)],main='count WBC')
 boxplot(dataNUT[,2:length(dataNUT)],main='% Nuet')
 boxplot(countNUT,main='count Neut')
