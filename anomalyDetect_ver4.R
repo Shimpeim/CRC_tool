@@ -1,9 +1,9 @@
 ## ２つのグループのデータを結合して、pre-postの比較を行う。
 
-fileRef1 <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/K11P1_レトロゾール（共和）/検査関連/データ入力/GROUP1/K11p1_g1_I_pre.txt'
-fileRel1 <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/K11P1_レトロゾール（共和）/検査関連/データ入力/GROUP1/K11p1_g1_I_24ｈ.txt'
-fileRef2 <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/K11P1_レトロゾール（共和）/検査関連/データ入力/GROUP2/K11p1_g2_I_pre.txt'
-fileRel2 <- '//Ibegpfsv/03_cl_ibegp/治験実施管理/治験/K11P1_レトロゾール（共和）/検査関連/データ入力/GROUP2/K11p1_g2_I_24h.txt'
+fileRef1 <- '//XXXX/03_cl_ibegp/治験実施管理/治験/XXXX/検査関連/データ入力/GROUP1/K11p1_g1_I_pre.txt'
+fileRel1 <- '//XXXX/03_cl_ibegp/治験実施管理/治験/XXXX/検査関連/データ入力/GROUP1/K11p1_g1_I_24ｈ.txt'
+fileRef2 <- '//XXXX/03_cl_ibegp/治験実施管理/治験/XXXX/検査関連/データ入力/GROUP2/K11p1_g2_I_pre.txt'
+fileRel2 <- '//XXXX/03_cl_ibegp/治験実施管理/治験/XXXX/検査関連/データ入力/GROUP2/K11p1_g2_I_24h.txt'
 
 HEADER = FALSE
 
